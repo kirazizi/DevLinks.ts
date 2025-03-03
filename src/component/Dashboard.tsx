@@ -59,8 +59,8 @@ const Dashboard = () => {
       </header>
 
       <div className="lg:flex">
-        <div className='flex w-[40%] justify-center items-top mt-20'>
-          <MobilePreview />
+        <div className='flex w-[40%] justify-center sticky top-20 self-start'>
+            <MobilePreview />
         </div>
         {
           activeTab === 'links' ? (
